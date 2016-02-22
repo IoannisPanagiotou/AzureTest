@@ -17,6 +17,6 @@ A:VISITED{
     COLOR: aqua;
 }
 
-footer.p{
+footer>p{
     color: blueviolet;
 }
