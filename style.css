@@ -21,6 +21,6 @@ footer{
     color: blueviolet;
 }
 
-p::after {
+footer::p::after {
     content: "/Yanis";
-} 
+}
