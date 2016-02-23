@@ -49,8 +49,7 @@ ul {
     padding: 0;
 }
 li {
-    fl
-    oat: left;
+    float: left;
 }
 li a {
     display: inline-block;
