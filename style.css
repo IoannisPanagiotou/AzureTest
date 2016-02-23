@@ -57,3 +57,25 @@ li a {
     padding: 0 10px 10px 10px;
     text-decoration: none;
 }
+
+#mugContainer1{
+    background-color: green;
+    width:29%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+}
+#mugContainer2{
+    background-color: red;
+    width:30%;
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+}
+#mugContainer3{
+    background-color: blue;
+    width:29%;
+    float: right;
+    margin: 1%;
+    padding: 1%;
+}
