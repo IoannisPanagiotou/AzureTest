@@ -72,7 +72,7 @@ li a {
     margin: 1%;
     padding: 1%;
     position: relative;
-    top: 50px;
+    top: 20px;
 }
 #mugContainer3{
     background-color: blue;
@@ -80,4 +80,6 @@ li a {
     float: right;
     margin: 1%;
     padding: 1%;
+    position: relative;
+    top: 20px;
 }
