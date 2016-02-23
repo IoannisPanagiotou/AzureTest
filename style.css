@@ -20,6 +20,7 @@ A:VISITED{
 
 footer{
     color: blueviolet;
+    background-color: red;
 }
 
 footer>p::after {
