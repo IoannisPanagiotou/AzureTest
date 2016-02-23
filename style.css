@@ -25,3 +25,7 @@ footer{
 footer>p::after {
     content: "/Yanis";
 }
+
+#mugContainer{
+    padding: 25px 20px 0px 0px;
+}
