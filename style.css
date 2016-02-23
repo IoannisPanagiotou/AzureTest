@@ -71,6 +71,8 @@ li a {
     display: inline-block;
     margin: 1%;
     padding: 1%;
+    position: relative;
+    top: 550px;
 }
 #mugContainer3{
     background-color: blue;
