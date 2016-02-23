@@ -29,3 +29,11 @@ footer>p::after {
 img{
     width:304px;height:228px;
 }
+
+body {
+    background-color: lightblue;
+}
+
+head{
+    background-color: red;
+}
