@@ -21,6 +21,9 @@ A:VISITED{
 footer{
     color: blueviolet;
     background-color: greenyellow;
+    position: relative;
+    top: 30px;
+
 }
 
 footer>p::after {
