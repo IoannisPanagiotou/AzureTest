@@ -42,3 +42,19 @@ head{
 main{
     font-family: Indie Flower;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    fl
+    oat: left;
+}
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    text-decoration: none;
+}
