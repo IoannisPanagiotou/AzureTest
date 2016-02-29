@@ -40,13 +40,13 @@ body {
 
 head{
     background-color: red;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
 }
 
 main{
     font-family: Indie Flower;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
 }
 
 ul {
