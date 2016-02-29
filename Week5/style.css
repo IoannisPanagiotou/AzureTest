@@ -1,0 +1,89 @@
+h1{
+    color:blue;
+    font-family:"verdana";
+}
+
+h2{
+    color:green;
+    font-family: verdana;
+}
+
+h3{
+    color:red;
+    font-size:12px;
+    font-family: 'Indie Flower', cursive;
+}
+
+A:VISITED{
+    COLOR: aqua;
+}
+
+footer{
+    color: blueviolet;
+    background-color: greenyellow;
+    position: relative;
+    top: 30px;
+
+}
+
+footer>p::after {
+    content: "/Yanis";
+}
+
+img{
+    width:100%;
+}
+
+body {
+    background-color: lightblue;
+}
+
+head{
+    background-color: red;
+}
+
+main{
+    font-family: Indie Flower;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    text-decoration: none;
+}
+
+#mugContainer1{
+    background-color: green;
+    width:29%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+}
+#mugContainer2{
+    background-color: lightseagreen;
+    width:29%;
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+    position: relative;
+    top: 30px;
+}
+#mugContainer3{
+    background-color: blue;
+    width:29%;
+    height:630px;
+    float: right;
+    margin: 1%;
+    padding: 1%;
+    position: relative;
+    top: 60px;
+}
