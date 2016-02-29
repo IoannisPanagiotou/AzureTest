@@ -1,24 +1,24 @@
-h1{
-    color:blue;
-    font-family:"verdana";
+h1 {
+    color: blue;
+    font-family: "verdana";
 }
 
-h2{
-    color:green;
+h2 {
+    color: green;
     font-family: verdana;
 }
 
-h3{
-    color:red;
-    font-size:12px;
+h3 {
+    color: red;
+    font-size: 12px;
     font-family: 'Indie Flower', cursive;
 }
 
-A:VISITED{
+A:VISITED {
     COLOR: aqua;
 }
 
-footer{
+footer {
     color: blueviolet;
     background-color: greenyellow;
     position: relative;
@@ -26,37 +26,43 @@ footer{
 
 }
 
-footer>p::after {
+footer > p::after {
     content: "/Yanis";
 }
 
-img{
-    width:100%;
+img {
+    width: 100%;
 }
 
 body {
     background-color: lightblue;
 }
 
-head{
+header {
     background-color: red;
 }
 
-main{
+main {
     font-family: Indie Flower;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
+
 }
 
+.contentcontainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 li {
     float: left;
 }
+
 li a {
     display: inline-block;
     text-align: center;
@@ -64,31 +70,36 @@ li a {
     text-decoration: none;
 }
 
-#mugContainer1{
+#mugContainer1 {
     background-color: green;
     order: 2;
-    width:29%;
+    width: 29%;
     float: left;
     margin: 1%;
     padding: 1%;
+    flex-grow:3;
 }
-#mugContainer2{
+
+#mugContainer2 {
     background-color: lightseagreen;
-    order:3;
-    width:29%;
+    order: 3;
+    width: 29%;
     display: inline-block;
     margin: 1%;
     padding: 1%;
     position: relative;
     top: 30px;
+    flex-grow:2;
 }
-#mugContainer3{
+
+#mugContainer3 {
     background-color: blue;
-    order:1;
-    width:29%;
+    order: 1;
+    width: 29%;
     float: right;
     margin: 1%;
     padding: 1%;
     position: relative;
     top: 60px;
+    flex-grow:1;
 }
