@@ -66,6 +66,7 @@ li a {
 
 #mugContainer1{
     background-color: green;
+    order: 2;
     width:29%;
     float: left;
     margin: 1%;
@@ -73,6 +74,7 @@ li a {
 }
 #mugContainer2{
     background-color: lightseagreen;
+    order:3;
     width:29%;
     display: inline-block;
     margin: 1%;
@@ -82,6 +84,7 @@ li a {
 }
 #mugContainer3{
     background-color: blue;
+    order:1;
     width:29%;
     float: right;
     margin: 1%;
