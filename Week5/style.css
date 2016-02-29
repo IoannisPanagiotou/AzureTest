@@ -45,6 +45,7 @@ head{
 main{
     font-family: Indie Flower;
     display: flex;
+    flex-direction: row;
 }
 
 ul {
