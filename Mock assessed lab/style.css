@@ -1,0 +1,62 @@
+h1, h2, h3 {
+    font-family: "Roboto Light";
+}
+
+main{
+    width:960px;
+}
+
+p{
+    font-family: "Roboto";
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    text-decoration: none;
+}
+
+#imageContainer1{
+    width:40px;
+}
+
+#imageContainer2{
+    width:240px;
+}
+
+.sidebar {
+    width: 33%;
+    float: right;
+}
+
+#container1 {
+    width: 66%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+}
+
+#container2 {
+    background-color: #DBC9DF;
+}
+
+#container3 {
+    background-color: #782A7E;
+}
+
+footer {
+    color: ghostwhite;
+    background-color: grey;
+    text-align: center;
+}
