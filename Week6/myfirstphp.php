@@ -49,5 +49,9 @@ $provisionedActivities=array("Specs","Drugs","Rock and Roll");
 foreach ($provisionedActivities as $x){
     print "<p>$x<p>";
 }
-
+echo "<br>";
+$provisionedActivity=array("Specs","Hugs");
+foreach ($provisionedActivity as $x){
+    print "<p>$x<p>";
+}
 ?>
