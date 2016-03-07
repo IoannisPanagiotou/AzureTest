@@ -44,10 +44,10 @@ switch($wantedgood){
         echo "You have to be 21 to buy sausage rolls";
         break;
 }
-
+echo "<br>";
 $provisionedActivities=array("Specs","Drugs","Rock and Roll");
 foreach ($provisionedActivities as $x){
-    print "$x";
+    print "<p>$x<p>";
 }
 
 ?>
