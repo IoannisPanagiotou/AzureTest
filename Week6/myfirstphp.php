@@ -20,14 +20,14 @@ else {
     print"Go home!";
 }
 
-if ($myage>=16){
-    print "You can only buy specs!";
+if ($myage>=21){
+    print "You can buy specs mugs and sausage rolls!";
 }
 else if($myage>=18){
     print"You can buy both specs and mugs!";
 }
 else{
-    print "You can buy specs mugs and sausage rolls!";
+    print "You can only buy specs!";
 }
 
 ?>
