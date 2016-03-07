@@ -50,7 +50,9 @@ foreach ($provisionedActivities as $x){
     print "<p>$x<p>";
 }
 echo "<br>";
-$provisionedActivity=array("Specs","Hugs");
+$provisionedActivity=array("Specs","Mugs","Sausage rolls");
+$provisionedActivity[1]="Hugs";
+unset($provisionedActivity[2]);
 foreach ($provisionedActivity as $x){
     print "<p>$x<p>";
 }
