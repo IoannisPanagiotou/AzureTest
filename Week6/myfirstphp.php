@@ -11,7 +11,7 @@ echo 5*7;
 $myname="Yanis";
 $myage=26;
 echo "My name is ".$myname." and I am ".$myage;
-echo '\n';
+echo "\r\n";
 if ($name==$myname){
     print "You are the number one!";
 }
