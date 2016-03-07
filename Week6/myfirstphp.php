@@ -13,10 +13,10 @@ $myage=26;
 echo "My name is ".$myname." and I am ".$myage;
 
 if ($name==$myname){
-    print "You are the number one!"
+    print "You are the number one!";
 }
 else {
-    print"Go home!"
+    print"Go home!";
 }
 
 ?>
