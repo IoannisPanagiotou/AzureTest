@@ -13,6 +13,7 @@ $name="Ken";
 $myage=26;
 echo "My name is ".$myname." and I am ".$myage;
 echo "\n";
+echo "<br>";
 if ($name==$myname){
     print "You are the number one!";
 }
@@ -42,5 +43,7 @@ switch($wantedgood){
         echo "You have to be 21 to buy sausage rolls";
         break;
 }
+
+$myArray=array("");
 
 ?>
