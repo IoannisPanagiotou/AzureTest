@@ -9,6 +9,7 @@
 echo "Hello world!";
 echo 5*7;
 $myname="Yanis";
+$name="Ken";
 $myage=26;
 echo "My name is ".$myname." and I am ".$myage;
 echo "\n";
