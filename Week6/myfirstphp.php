@@ -10,6 +10,13 @@ echo "Hello world!";
 echo 5*7;
 $myname="Yanis";
 $myage=26;
-echo "My name is".$myname."ans I am".$myage;
+echo "My name is ".$myname." and I am ".$myage;
+
+if ($name==$myname){
+    print "You are the number one!"
+}
+else {
+    print"Go home!"
+}
 
 ?>
