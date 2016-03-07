@@ -7,12 +7,13 @@
  */
 
 echo "Hello world!";
+echo "<br>";
 echo 5*7;
 $myname="Yanis";
 $name="Ken";
 $myage=26;
 echo "My name is ".$myname." and I am ".$myage;
-echo "\n";
+
 echo "<br>";
 if ($name==$myname){
     print "You are the number one!";
@@ -20,7 +21,7 @@ if ($name==$myname){
 else {
     print"Go home!";
 }
-
+echo "<br>";
 if ($myage>=21){
     print "You can buy specs, mugs and sausage rolls!";
 }
@@ -30,7 +31,7 @@ else if($myage>=18){
 else{
     print "You can only buy specs!";
 }
-
+echo "<br>";
 $wantedgood="mugs";
 switch($wantedgood){
     case "specs":
