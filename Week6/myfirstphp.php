@@ -11,12 +11,22 @@ echo 5*7;
 $myname="Yanis";
 $myage=26;
 echo "My name is ".$myname." and I am ".$myage;
-echo "\r\n";
+echo "\n";
 if ($name==$myname){
     print "You are the number one!";
 }
 else {
     print"Go home!";
+}
+
+if ($myage>=16){
+    print "You can only buy specs!";
+}
+else if($myage>=18){
+    print"You can buy both specs and mugs!";
+}
+else{
+    print "You can buy specs mugs and sausage rolls!";
 }
 
 ?>
