@@ -21,7 +21,7 @@ else {
 }
 
 if ($myage>=21){
-    print "You can buy specs mugs and sausage rolls!";
+    print "You can buy specs, mugs and sausage rolls!";
 }
 else if($myage>=18){
     print"You can buy both specs and mugs!";
