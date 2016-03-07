@@ -8,5 +8,8 @@
 
 echo "Hello world!";
 echo 5*7;
+$myname="Yanis";
+$myage=26;
+echo "My name is".$myname."ans I am".$myage;
 
 ?>
