@@ -45,6 +45,9 @@ switch($wantedgood){
         break;
 }
 
-$myArray=array("");
+$provisionedActivities=array("Specs","Drugs","Rock and Roll");
+foreach ($provisionedActivities as $x){
+    print "$x";
+}
 
 ?>
