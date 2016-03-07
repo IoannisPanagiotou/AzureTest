@@ -63,13 +63,13 @@ foreach ($provisionedActivity as $x){
 
 for ($i = 1; $i < 31; $i++)
 {
-    if ($imod4==0){
+    if ($i%4==0){
         echo "<p>On the ".$i." of the month ".$provisionedActivity[2]." are available.</p>";
     }
-    else if ($imod3==0){
+    else if ($i%3==0){
         echo "<p>On the ".$i." of the month ".$provisionedActivity[1]." are available.</p>";
     }
-    else if ($imod2==0){
+    else if ($i%2==0){
         echo "<p>On the ".$i." of the month ".$provisionedActivity[0]." are available.</p>";
     }
     else {
