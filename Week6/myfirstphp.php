@@ -80,7 +80,7 @@ $i=1;
 $mugCounter=0;
 $specCounter=0;
 $sausageCounter=0;
-for ($i = 1; $i < 31; $i++) {
+while ($mugCounter < 8 && $specCounter < 8 && $sausageCounter < 8)
      {
         $todaysGood = rand(0, 2);
         switch ($todaysGood) {
@@ -99,7 +99,6 @@ for ($i = 1; $i < 31; $i++) {
         }
         $i = $i + 1;
     }
-}
 echo "No more goods are available this month";
 
 ?>
