@@ -52,7 +52,7 @@ $provisionedActivities=array("Specs","Drugs","Rock and Roll");
 foreach ($provisionedActivities as $x){
     print "<p>$x<p>";
 }
-echo "<br>";
+echo "<br>";echo "<br>";
 $provisionedActivity=array("Specs","Mugs","Sausage rolls");
 $provisionedActivity[1]="Hugs";
 unset($provisionedActivity[2]);
@@ -75,7 +75,7 @@ for ($i = 1; $i < 31; $i++)
         echo "<p>On the ".$i." of the month "." no products are available.</p>";
     }
 }
-
+echo "<br>";echo "<br>";
 $i=1;
 $mugStock=0;
 $specStock=0;
