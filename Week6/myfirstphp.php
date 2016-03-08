@@ -130,6 +130,7 @@ echo count($entriesCompetition);
 $todaysWinner = rand(0,count($entriesCompetition)-1);
 echo "<p>Next winner iiiiiiis ".strtoupper($entriesCompetition[$todaysWinner]).". Bravo! All mugs are yours!</p>";
 unset($entriesCompetition[$todaysWinner]);
+echo count($entriesCompetition);
 $todaysWinner = rand(0, count($entriesCompetition)-1);
 echo "<p>The final winner iiiiiiis ".strtoupper($entriesCompetition[$todaysWinner]).". Bravo! All sausages are yours!</p>";
 /*foreach ($entriesCompetition as $z){
