@@ -123,13 +123,13 @@ print join(", ",$favPlayers);
 echo "<br>";
 $entriesCompetition=array("John","George","Michael","Mike","Peter","Helen","Ken","Jeremy");
 sort($entriesCompetition);
-$todaysWinner = rand(1, count($entriesCompetition));
+$todaysWinner = rand(1, count($entriesCompetition)-1);
 echo "<p>And the winner iiiiiiis ".strtoupper($entriesCompetition[$todaysWinner]).". Bravo! All specs are yours!</p>";
 unset($entriesCompetition[$todaysWinner]);
-$todaysWinner = rand(1,count($entriesCompetition));
+$todaysWinner = rand(1,count($entriesCompetition)-1);
 echo "<p>Next winner iiiiiiis ".strtoupper($entriesCompetition[$todaysWinner]).". Bravo! All mugs are yours!</p>";
 unset($entriesCompetition[$todaysWinner]);
-$todaysWinner = rand(1, count($entriesCompetition));
+$todaysWinner = rand(1, count($entriesCompetition)-1);
 echo "<p>The final winner iiiiiiis ".strtoupper($entriesCompetition[$todaysWinner]).". Bravo! All sausages are yours!</p>";
 /*foreach ($entriesCompetition as $z){
     print "<p>$z<p>";
