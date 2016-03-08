@@ -104,6 +104,6 @@ echo "<br>";echo "<br>";
 $partial=substr($myage,1,2);
 print $partial;
 echo "<br>";echo "<br>";
-$round=round(M_PI);
+$round=round(M_PI,2);
 print $round;
 ?>
