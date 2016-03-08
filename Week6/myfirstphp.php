@@ -126,6 +126,7 @@ sort($entriesCompetition);
 $todaysWinner = rand(0, count($entriesCompetition)-1);
 echo "<p>And the winner iiiiiiis ".strtoupper($entriesCompetition[$todaysWinner]).". Bravo! All specs are yours!</p>";
 unset($entriesCompetition[$todaysWinner]);
+echo count($entriesCompetition);
 $todaysWinner = rand(0,count($entriesCompetition)-1);
 echo "<p>Next winner iiiiiiis ".strtoupper($entriesCompetition[$todaysWinner]).". Bravo! All mugs are yours!</p>";
 unset($entriesCompetition[$todaysWinner]);
