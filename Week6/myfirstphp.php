@@ -92,7 +92,7 @@ while($mugStock<8&&$specStock<8&&$sausageStock<8){
             echo "<p>On the ".$i." of the month specs are available.</p>";
             break;
         case 2:
-            $sausageCounter=$sausageCounter-1;
+            $sausageCounter=$sausageCounter+1;
             echo "<p>On the ".$i." of the month sausage rolls are available.</p>";
             break;
     }
