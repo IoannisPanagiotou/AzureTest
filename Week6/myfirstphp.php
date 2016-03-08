@@ -103,5 +103,7 @@ echo "No more goods are available this month";
 echo "<br>";echo "<br>";
 $partial=substr($myage,1,2);
 print $partial;
-
+echo "<br>";echo "<br>";
+$round=round(M_PI);
+print $round;
 ?>
