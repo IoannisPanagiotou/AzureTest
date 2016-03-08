@@ -121,8 +121,7 @@ echo "<br>";
 sort($favPlayers);
 print join(", ",$favPlayers);
 echo "<br>";
-$entriesCompetition=array();
-array_push($entriesCompetition,"John","George","Michael");
+$entriesCompetition=array("John","George","Michael","Mike","Peter","Helen","Ken","Jeremy");
 foreach ($entriesCompetition as $z){
     print "<p>$z<p>";
 }
