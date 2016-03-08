@@ -80,23 +80,25 @@ $i=1;
 $mugCounter=0;
 $specCounter=0;
 $sausageCounter=0;
-while($mugStock<8&&$specStock<8&&$sausageStock<8){
-    $todaysGood=rand(0,2);
-    switch($todaysGood){
-        case 0:
-            $mugCounter=$mugCounter+1;
-            echo "<p>On the ".$i." of the month mugs are available.</p>";
-            break;
-        case 1:
-            $specCounter=$specCounter+1;
-            echo "<p>On the ".$i." of the month specs are available.</p>";
-            break;
-        case 2:
-            $sausageCounter=$sausageCounter+1;
-            echo "<p>On the ".$i." of the month sausage rolls are available.</p>";
-            break;
+for ($i = 1; $i < 31; $i++) {
+     {
+        $todaysGood = rand(0, 2);
+        switch ($todaysGood) {
+            case 0:
+                $mugCounter = $mugCounter + 1;
+                echo "<p>On the " . $i . " of the month mugs are available.</p>";
+                break;
+            case 1:
+                $specCounter = $specCounter + 1;
+                echo "<p>On the " . $i . " of the month specs are available.</p>";
+                break;
+            case 2:
+                $sausageCounter = $sausageCounter + 1;
+                echo "<p>On the " . $i . " of the month sausage rolls are available.</p>";
+                break;
+        }
+        $i = $i + 1;
     }
-    $i=$i+1;
 }
 echo "No more goods are available this month";
 
