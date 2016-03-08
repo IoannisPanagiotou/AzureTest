@@ -108,5 +108,11 @@ $round=round(M_PI,2);
 print $round;
 echo "<br>";
 print rand(1,5);
+echo "<br>";
+$favPlayers=array();
+array_push($favPlayers,"Giovanni Silva de Oliveira");
+array_push($favPlayers,"Vitor Borba Fereira Rivaldo");
+array_push($favPlayers,"Neri Castillo");
+print $favPlayers;
 
 ?>
