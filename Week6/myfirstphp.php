@@ -111,7 +111,7 @@ print rand(1,5);
 echo "<br>";
 $favPlayers=array();
 array_push($favPlayers,"Giovanni Silva de Oliveira");
-array_push($favPlayers,"Vitor Borba Fereira Rivaldo");
+array_push($favPlayers,"Vitor Borba Fereira ". strtoupper("Rivaldo"));
 array_push($favPlayers,"Neri Castillo");
 foreach ($favPlayers as $z){
     print "<p>$z<p>";
