@@ -118,5 +118,6 @@ foreach ($favPlayers as $z){
 }
 print count($favPlayers);
 sort($favPlayers);
+print join(", ",$favPlayers);
 
 ?>
