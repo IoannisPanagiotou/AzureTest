@@ -106,4 +106,7 @@ print $partial;
 echo "<br>";echo "<br>";
 $round=round(M_PI,2);
 print $round;
+echo "<br>";
+print rand(1,5);
+
 ?>
