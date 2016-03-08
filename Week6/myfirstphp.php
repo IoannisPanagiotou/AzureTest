@@ -117,6 +117,7 @@ foreach ($favPlayers as $z){
     print "<p>$z<p>";
 }
 print count($favPlayers);
+echo "<br>";
 sort($favPlayers);
 print join(", ",$favPlayers);
 
