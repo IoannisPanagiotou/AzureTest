@@ -124,7 +124,7 @@ echo "<br>";
 $entriesCompetition=array("John","George","Michael","Mike","Peter","Helen","Ken","Jeremy");
 sort($entriesCompetition);
 $todaysWinner = rand(1, 8);
-echo "<p>And the winner iiiiiiis".strtoupper($entriesCompetition[$todaysWinner]).". Bravo!</p>";
+echo "<p>And the winner iiiiiiis".strtoupper($entriesCompetition[$todaysWinner]).". Bravo! All specs are yours!</p>";
 /*foreach ($entriesCompetition as $z){
     print "<p>$z<p>";
 }
