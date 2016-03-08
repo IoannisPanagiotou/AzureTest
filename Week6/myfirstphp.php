@@ -120,5 +120,12 @@ print count($favPlayers);
 echo "<br>";
 sort($favPlayers);
 print join(", ",$favPlayers);
+echo "<br>";
+$entriesCompetition=array();
+array_push($entriesCompetition,"John","George","Michael");
+foreach ($entriesCompetition as $z){
+    print "<p>$z<p>";
+}
+print count($entriesCompetition);
 
 ?>
