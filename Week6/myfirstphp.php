@@ -100,8 +100,8 @@ while ($mugCounter < 8 && $specCounter < 8 && $sausageCounter < 8)
         $i = $i + 1;
     }
 echo "No more goods are available this month";
-
-$partial=substr($myname,1,3);
+echo "<br>";echo "<br>";
+$partial=substr($myname,9,10);
 print $partial;
 
 ?>
