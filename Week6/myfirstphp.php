@@ -77,22 +77,22 @@ for ($i = 1; $i < 31; $i++)
 }
 echo "<br>";echo "<br>";
 $i=1;
-$mugStock=0;
-$specStock=0;
-$sausageStock=0;
+$mugCounter=0;
+$specCounter=0;
+$sausageCounter=0;
 while($mugStock<8&&$specStock<8&&$sausageStock<8){
     $todaysGood=rand(0,2);
     switch($todaysGood){
         case 0:
-            $mugStock=$mugStock-1;
+            $mugCounter=$mugCounter+1;
             echo "<p>On the ".$i." of the month mugs are available.</p>";
             break;
         case 1:
-            $specStock=$specStock-1;
+            $specCounter=$specCounter+1;
             echo "<p>On the ".$i." of the month specs are available.</p>";
             break;
         case 2:
-            $sausageStock=$sausageStock-1;
+            $sausageCounter=$sausageCounter-1;
             echo "<p>On the ".$i." of the month sausage rolls are available.</p>";
             break;
     }
