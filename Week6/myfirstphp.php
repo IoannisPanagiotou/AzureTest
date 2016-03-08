@@ -60,7 +60,6 @@ foreach ($provisionedActivity as $x){
     print "<p>$x<p>";
 }
 
-
 for ($i = 1; $i < 31; $i++)
 {
     if ($i%4==0){
@@ -76,4 +75,29 @@ for ($i = 1; $i < 31; $i++)
         echo "<p>On the ".$i." of the month "." no products are available.</p>";
     }
 }
+
+$i=1;
+$mugStock=0;
+$specStock=0;
+$sausageStock=0;
+while($mugStock<8&&$specStock<8&&$sausageStock<8){
+    $todaysGood=rand(0,2);
+    switch($todaysGood){
+        case 0:
+            $mugStock=$mugStock-1;
+            echo "<p>On the ".$i." of the month mugs are available.</p>";
+            break;
+        case 1:
+            $specStock=$specStock-1;
+            echo "<p>On the ".$i." of the month specs are available.</p>";
+            break;
+        case 2:
+            $sausageStock=$sausageStock-1;
+            echo "<p>On the ".$i." of the month sausage rolls are available.</p>";
+            break;
+    }
+    $i=$i+1;
+}
+echo "No more goods are available this month";
+
 ?>
