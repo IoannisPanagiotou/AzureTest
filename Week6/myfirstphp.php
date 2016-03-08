@@ -116,5 +116,7 @@ array_push($favPlayers,"Neri Castillo");
 foreach ($favPlayers as $z){
     print "<p>$z<p>";
 }
+print count($favPlayers);
+sort($favPlayers);
 
 ?>
