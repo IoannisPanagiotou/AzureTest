@@ -122,9 +122,12 @@ sort($favPlayers);
 print join(", ",$favPlayers);
 echo "<br>";
 $entriesCompetition=array("John","George","Michael","Mike","Peter","Helen","Ken","Jeremy");
-foreach ($entriesCompetition as $z){
+sort($entriesCompetition);
+$todaysWinner = rand(1, 8);
+echo "<p>And the winner iiiiiiis".strtoupper($entriesCompetition[$todaysWinner])."Bravo!</p>";
+/*foreach ($entriesCompetition as $z){
     print "<p>$z<p>";
 }
-print count($entriesCompetition);
+print count($entriesCompetition);*/
 
 ?>
