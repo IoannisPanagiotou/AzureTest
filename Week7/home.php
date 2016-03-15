@@ -7,7 +7,7 @@
 <body>
 <h1>Hello!</h1>
 <?php  echo $_GET["username"];
-
+<br>
 $sql2="SELECT * FROM users";
 $result2=mysqli_query($db,$sql2);
 echo $sql2;
