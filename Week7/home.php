@@ -13,7 +13,8 @@ $sql2="SELECT * FROM users";
 $result2=mysqli_query($db,$sql2);
 while($row = $result2->fetch_array()) {
     $users=$row['username'];
-    echo "<p>" .$users. "</p>";
+    $psw=$row['password'];
+    echo "<p>" .$users."  ".$psw. "</p>";
 }
 ?>
 </body>
