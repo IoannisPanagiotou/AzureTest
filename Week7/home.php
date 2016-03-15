@@ -6,9 +6,9 @@
 </head>
 <body>
 <h1>Hello!</h1>
-<?php  echo $_GET["username"];
+<?php  //echo $_GET["username"];
 echo "<br>";
-$sql2="SELECT * FROM users";
+$sql2="SELECT username FROM users";
 $result2=mysqli_query($db,$sql2);
 while($row = $result2->fetch_array()) {
     $users=$row['username'];
