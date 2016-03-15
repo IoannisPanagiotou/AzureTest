@@ -10,7 +10,10 @@
 echo "<br>";
 $sql2="SELECT * FROM users";
 $result2=mysqli_query($db,$sql2);
-echo $sql2;
+while($row = $result2->fetch_array()) {
+    $users=$row['username'];
+    echo $users;
+}
 ?>
 </body>
 </html>
