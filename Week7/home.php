@@ -6,6 +6,6 @@
 </head>
 <body>
 <h1>Hello!</h1>
-<?php  echo $_POST["username"];?>
+<?php  echo $_GET["username"];?>
 </body>
 </html>
