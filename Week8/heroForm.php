@@ -6,10 +6,10 @@
  * Time: 10:36
  */
 ?>
-<form action="formResponse.php" method="post">
-    <label>Name</label><input type=“text” name="name">
-    <label>Gender</label><input type=“text” name="gender">
-    <label>Main power</label><input type=“text” name="power">
+<form action="formResponse.php" method="get">
+    <label>Name</label><input type="text" name="name">
+    <label>Gender</label><input type="text" name="gender">
+    <label>Main power</label><input type="text" name="power">
     <input type="submit" value="Submit">
 </form>
 
