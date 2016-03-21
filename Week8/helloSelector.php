@@ -14,10 +14,9 @@
 <body>
 Where would you like to say hello?
 <br>
-<?php
+
 <ul>
     <li><a href="helloPrinter.php?planet=".$planet."">Earth</a></li>
     <li><a href="helloPrinter.php?planet=".$planet."">Mars</a></li>
     <li><a href="helloPrinter.php?planet=".$planet."">Uranus</a></li>
 </ul>
-?>
