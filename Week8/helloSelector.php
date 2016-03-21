@@ -9,7 +9,7 @@
 Where would you like to say hello?
 <br>
 <ul>
-    <li><a href="helloPrinter.php?planet=".$planet=$GET_["planet"]."">Earth</a></li>
+    <li><a href="helloPrinter.php?planet=".$planet=$_GET["planet"]."">Earth</a></li>
     <li><a href="helloPrinter.php?planet=".$planet."">Mars</a></li>
     <li><a href="helloPrinter.php?planet=".$planet."">Uranus</a></li>
 </ul>
