@@ -9,7 +9,7 @@
 <h2>Superhero home page</h2>
 What would you like to do?
 <ul>
-    <li><a href="insertsuperhero.php">insert superhero</a></li>
+    <li><a href="superheroForm.php">insert superhero</a></li>
     <li><a href="displaySuperheros.php">display all superheros</a></li>
 </ul>
 
