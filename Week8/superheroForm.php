@@ -10,7 +10,7 @@
 <?php
 include("dbconnect.php");
 ?>
-<form action="displaySuperheros.php" method="post">
+<form action="insertsuperhero.php" method="post">
     <label>First Name</label><input type="text" name="firstname">
     <label>Last Name</label><input type="text" name="lastname">
     <label>Main power</label><input type="text" name="superpower">
