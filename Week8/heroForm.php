@@ -5,6 +5,7 @@
  * Date: 21/03/2016
  * Time: 10:36
  */
+include("dbconnect.php");
 ?>
 <form action="formResponse.php" method="post">
     <label>Name</label><input type="text" name="name">
