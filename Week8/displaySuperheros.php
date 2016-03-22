@@ -7,7 +7,7 @@
 <body>
 <h1>The Superhero System</h1>
 <h2>Display all superheroes</h2>
-<?php  //echo $_GET["username"];
+<?php
 include ("dbconnect.php");
 echo "<br>";
 $sql="SELECT * FROM superheros";

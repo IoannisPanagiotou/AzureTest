@@ -1,16 +1,21 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Superhero System</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<h1>The Superhero System</h1>
+<h2>Create a superhero</h2>
 <?php
-/**
- * Created by PhpStorm.
- * User: 1510673
- * Date: 21/03/2016
- * Time: 10:36
- */
 include("dbconnect.php");
 ?>
 <form action="displaySuperheros.php" method="post">
-    <label>Name</label><input type="text" name="name">
-    <label>Gender</label><input type="text" name="gender">
-    <label>Main power</label><input type="text" name="power">
+    <label>First Name</label><input type="text" name="firstname">
+    <label>Last Name</label><input type="text" name="lastname">
+    <label>Main power</label><input type="text" name="superpower">
     <input type="submit" value="Submit">
 </form>
 
+</body>
+</html>
