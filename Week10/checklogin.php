@@ -11,5 +11,5 @@ if ($username=="username" && $password=="password")
 {
     setcookie('access_level','standarduser');
 }
-header('Location: homepage.php')
+header('Location: homepage.php');
 ?>
