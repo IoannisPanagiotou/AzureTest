@@ -17,8 +17,8 @@ function displayAccessLevelInformation($accesslevel) {
         echo "<p>You now have access to additional administrative features</p>";
     }
 }
-$_SESSION = array();
-session_destroy();
+//$_SESSION = array();
+//session_destroy();
 if (isset($_SESSION['access_level_session'])) {
     echo "<p>The session is still here!!!</p>";
 }
