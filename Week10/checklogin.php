@@ -5,8 +5,8 @@
  * Date: 11/04/2016
  * Time: 09:37
  */
-$username = "Yanis";
-$password = "mypassword";
+$username = $_POST["username"];
+$password = $_POST["password"];
 if ($username=="username" && $password=="password")
 {
     setcookie('access_level','standarduser');
