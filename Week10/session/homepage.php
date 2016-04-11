@@ -19,5 +19,8 @@ function displayAccessLevelInformation($accesslevel) {
 }
 $_SESSION = array();
 session_destroy();
+if (isset($_SESSION['access_level_session'])) {
+    echo "<p>The session is still here!!!</p>";
+}
 
 ?>
