@@ -8,6 +8,8 @@
 $title=$_GET["title"];
 $content=$_GET["content"];
 $category=$_GET["category"];
+echo "<article>";
 echo "<h1>$title</h1>";
 echo "<p>$content</p>";
 echo "<strong>$category</strong>";
+echo "</article>";
