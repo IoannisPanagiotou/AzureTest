@@ -5,9 +5,9 @@
  * Date: 12/04/2016
  * Time: 10:19
  */
-$title=$_GET["title"];
-$content=$_GET["content"];
-$category=$_GET["category"];
+$title=$_POST["title"];
+$content=$_POST["content"];
+$category=$_POST["category"];
 echo "<h1>$title</h1>";
 echo "<p>$content</p>";
 echo "<strong>$category</strong>";
