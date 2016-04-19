@@ -20,3 +20,7 @@ nav{
 #con{
     float: right;
 }
+
+footer{
+    clear: both;
+}
