@@ -14,10 +14,12 @@ li a{
 }
 
 nav{
+    width: 33%;
     float: left;
 }
 
 #con{
+    width: 66%;
     float: right;
 }
 
