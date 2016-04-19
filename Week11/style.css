@@ -1,7 +1,14 @@
 *{
     foont-family: "verdana";
 }
+header{
 
-li{
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav{
     float: left;
 }
