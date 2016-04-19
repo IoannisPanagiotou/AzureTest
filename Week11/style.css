@@ -16,3 +16,7 @@ li a{
 nav{
     float: left;
 }
+
+#con{
+    float: right;
+}
