@@ -49,12 +49,14 @@ elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $bugName=$_POST["name"];
     $bugSummary=$_POST["summary"];
     $bugCategory=$_POST["category"];
+
+    echo "{$bugName} {$bugSummary} {$bugCategory}";
     $sql="INSERT INTO bugs (bugName, bugSummary, bugCategory) VALUES ('".$bugName."','".$bugSummary."','".$bugCategory."')";
     if (mysql_query($db, $sql)){
     }else{
         echo "error: ".$sql."<br>".mysqli_error($db);
     }
-    header("location: showbugs.php");
+    //header("location: showbugs.php");
 }
 else{
     header("location: index.php");
