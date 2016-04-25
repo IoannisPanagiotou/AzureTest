@@ -29,6 +29,19 @@ include("dbconnect.php");
     </ul>
 </nav>
 <content id="con">
+    <ul>
+    <?
+        $sql_query = "select * from bugs";
+        $result = $db->query($sql_query);
+        while ($row = $result->fetch_array())
+        {
+            $bugName=$row["name"];
+            $bugSummary=$row["summary"];
+            $bugCategory=$row["category"];
+            echo "<li>{$bugName} {$bugCategory} {$bugSummary}</li>";
+        }
+    ?>
+    </ul>
         <h3>StageFright</h3><br>
         <h5>Android</h5><br>
         <p>Stagefright is the collective name for a
