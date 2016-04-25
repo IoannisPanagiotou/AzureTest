@@ -30,7 +30,7 @@
 <content id="con">
     <?php if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     ?>
-    <form action="<? {$_SERVER['PHP_SELF'];} ?>" method="post">
+    <form action="<? echo {$_SERVER['PHP_SELF'];} ?>" method="post">
         Bug Name <input type="text" name="name" required/><br>
         Bug Summary <textarea name="summary" required></textarea><br>
         Bug Category
@@ -45,6 +45,7 @@
     <?
     }
 elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
     header("location: showbugs.php");
 }
 else{
