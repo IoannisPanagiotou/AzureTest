@@ -35,9 +35,9 @@ include("dbconnect.php");
         $result = $db->query($sql_query);
         while ($row = $result->fetch_array())
         {
-            $bugName=$row["name"];
-            $bugSummary=$row["summary"];
-            $bugCategory=$row["category"];
+            $bugName=$row["bugName"];
+            $bugSummary=$row["bugSummary"];
+            $bugCategory=$row["bugCategory"];
             echo "<li>{$bugName} {$bugCategory} {$bugSummary}</li>";
         }
     ?>
