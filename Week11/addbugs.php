@@ -49,7 +49,7 @@ elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 else{
     header("location: index.php");
-}
+}?>
 </content>
 <footer>
     Designed by Ioannis Panagiotou, 2016
