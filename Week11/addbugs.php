@@ -1,10 +1,10 @@
-<?php
+
 /**
  * Created by PhpStorm.
  * User: 1510673
  * Date: 25/04/2016
  * Time: 09:33
- */?>
+ */
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +28,9 @@
     </ul>
 </nav>
 <content id="con">
-    <form>
+    <?php if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    ?>
+    <form action="<? {$_SERVER['PHP_SELF']} ?>" method="post">
         Bug Name <input type="text" name="name" required/><br>
         Bug Summary <textarea name="summary" required></textarea><br>
         Bug Category
@@ -40,6 +42,8 @@
         <br>
         <input type="submit" value="Submit" />
     </form>
+    
+    }
 </content>
 <footer>
     Designed by Ioannis Panagiotou, 2016
