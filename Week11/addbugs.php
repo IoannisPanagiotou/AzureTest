@@ -51,7 +51,7 @@ elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $bugCategory=$_POST["category"];
 
     echo "{$bugName} {$bugSummary} {$bugCategory}";
-    $sql="INSERT INTO bugs (bugName, bugSummary, bugCategory) VALUES ('".$bugName."','".$bugSummary."','".$bugCategory."')";
+    $sql="INSERT INTO bugs (bugName, bugSummary, bugCategory) VALUES ('bugName','bugSummary','bugCategory')";
     if (mysql_query($db, $sql)){
     }else{
         echo "error: ".$sql."<br>".mysqli_error($db);
