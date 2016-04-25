@@ -54,7 +54,7 @@ elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $sql="INSERT INTO bugs (bugName, bugSummary, bugCategory) VALUES ('bugName','bugSummary','bugCategory')";
     if (mysql_query($db, $sql)){
     }else{
-        echo "error: ".$sql."<br>".mysqli_error($db);
+        echo "<br>Error: ".$sql."<br>".mysqli_error($db);
     }
     //header("location: showbugs.php");
 }
