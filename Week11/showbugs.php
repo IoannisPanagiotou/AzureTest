@@ -42,12 +42,7 @@ include("dbconnect.php");
         }
     ?>
     </ul>
-        <h3>StageFright</h3><br>
-        <h5>Android</h5><br>
-        <p>Stagefright is the collective name for a
-                                                  group of software bugs, that affect versions 2.2 and newer of the Android operating
-        system, allowing an attacker to perform arbitrary operations on the victim device
-         through remote code execution and privilege escalation.</p><br>
+        <br>
 </content>
 <footer>
 Designed by Ioannis Panagiotou, 2016
