@@ -1,3 +1,10 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 1510673
+ * Date: 25/04/2016
+ * Time: 09:33
+ */?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,21 +28,15 @@
     </ul>
 </nav>
 <content id="con">
-    <form>
-        Bug Name <input type="text" name="name" required/><br>
-        Bug Summary <textarea name="summary" required></textarea><br>
-        Bug Category
-        <select name="category" required>
-            <option value="andr">Android</option>
-            <option value="ios">iOS</option>
-            <option value="win">Windows</option>
-        </select>
-        <br>
-        <input type="submit" value="Submit" />
-    </form>
+        <h3>StageFright</h3><br>
+        <h5>Android</h5><br>
+        <p>Stagefright is the collective name for a
+                                                  group of software bugs, that affect versions 2.2 and newer of the Android operating
+        system, allowing an attacker to perform arbitrary operations on the victim device
+         through remote code execution and privilege escalation.</p><br>
 </content>
 <footer>
-    Designed by Ioannis Panagiotou, 2016
+Designed by Ioannis Panagiotou, 2016
 </footer>
 </body>
 </html>
