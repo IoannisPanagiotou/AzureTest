@@ -42,8 +42,14 @@
         <br>
         <input type="submit" value="Submit" />
     </form>
-    
+    <?
     }
+elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    header("location: showbugs.php");
+}
+else{
+    header("location: index.php");
+}
 </content>
 <footer>
     Designed by Ioannis Panagiotou, 2016
